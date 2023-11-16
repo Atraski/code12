@@ -1,0 +1,15 @@
+@media(max-width:430px){
+    .cartDetails{
+        flex-direction:column ;
+        justify-content: center;
+        align-items:center;
+        text-align: center;
+    }
+    .Details{
+        margin:15px 0;
+    }
+
+    .msm{
+        text-align:center;
+    }
+}

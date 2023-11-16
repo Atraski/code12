@@ -1,0 +1,182 @@
+/* .imgbg{
+    background-image:url('../images/Atstay1.1.webp');
+    background-size:cover;
+    background-position:center;
+    width:100vw;
+
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Variables */
+  
+  :root{
+  
+      /* Colors */
+  
+      --dark: #725887;
+      --light: #FAEDFF;
+      --background-color: #FFF;
+      --white: #FFF;
+      --main-color: #DEDBE1;
+      --light-gray: #EFEFEF;
+  
+      /* Fonts */
+  
+      --font-text: 14px;
+  
+      /* Other Vars  */
+  
+      --border-radius: 4px;
+  }
+  
+  /* Main */
+  
+  body{
+    height: 100vh;
+  }
+  
+  .main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Dropdown Menu */
+  
+  section.dropdown{
+      position: relative;
+      background-color: var(--main-color);
+      width: 100%;
+      border-radius: var(--border-radius);
+      cursor: pointer;
+      padding-bottom: 40px;
+      margin: 8px;
+      max-width: 400px;
+  }
+  
+  section.dropdown::after{
+      content: "";
+      position: absolute;
+      background-color: var(--dark);
+      width: 40px;
+      border-radius: var(--border-radius);
+      top: 0;
+      height: 40px;
+  }
+  
+  section.dropdown::before{
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      left: 13px;
+      top: 16px;
+      border-radius: 2px;
+      z-index: 2;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-top: 10px solid var(--background-color);
+      transition: 0.3s;
+  }
+  
+  section.dropdown h2{
+      font-size: var(--font-text);
+      position: absolute;
+      left: 50px;
+      z-index: 2;
+      top: 12px;
+  }
+  
+  section.dropdown div.options{
+      position: relative;
+      width: 100%;
+      background-color: var(--light-gray);
+      top: 40px;
+      display: none;
+  }
+  
+  section.dropdown.rotate::before {
+      transform: rotate(90deg) !important;
+      transition: 0.3s;
+  }
+  
+  
+  section.dropdown div.options p{
+      position: relative;
+      padding: 5px;
+  }
+  
+  section.dropdown div.options p::after{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: var(--white);
+      left: 0;
+      top: 0;
+  }
+  
+  section.dropdown div.options p:first-child::after{
+      background-color: transparent;
+  }
+
+
+  .highlights li {
+    color:#66cccc;
+    
+  }
+
+  .highlights span{
+    color:black;
+  }
+
+  .box1{
+    
+    border:1px solid black;
+    /* border-radius:10px; */
+    width:300px;
+    margin-top:50px;
+    margin-left:50px;
+  }
+
+ @media(max-width:1000px){
+    .box1{
+        margin:0;
+        background-color: #66cccc;
+
+    }
+
+    .kkk{
+        justify-content: space-around !important;
+    }
+ }
+
+ @media(max-width:500px){
+    iframe{
+        width:auto !important;
+    }
+
+    .triptyps{
+        flex-direction:column !important;
+        gap:32px;
+    }
+
+    .fm{
+        margin-right:0px !important;
+        margin-left:1rem !important;
+    }
+
+    .tripDetails{
+        margin-right: 1rem!important;
+    margin-left: 1rem!important;
+    }
+    .butt{
+        width:138px!important;
+    }
+ }

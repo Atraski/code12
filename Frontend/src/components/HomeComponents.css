@@ -1,0 +1,8 @@
+@media(max-width:400px){
+    .cds{
+        width:340px !important;
+    }
+    .images img{
+        width:340px !important;
+    }
+}

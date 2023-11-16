@@ -1,0 +1,37 @@
+
+[
+    {
+      "id": 1,
+      "room1": [
+        {
+          "imgs": "atstay3",
+          "roomtype": "premimum"
+        },
+
+        {
+            "imgs": "atstay9",
+            "roomtype": "normalslhfasf"
+        }
+
+      ]
+      
+    },
+
+    {
+        "id": 2,
+        "room1": [
+          {
+            "imgs": "atstay4",
+            "roomtype": "prem"
+          },
+  
+          {
+              "imgs": "atstay5",
+              "roomtype": "normal"
+          }
+  
+        ]
+        
+      }
+
+]

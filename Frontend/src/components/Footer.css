@@ -1,0 +1,41 @@
+.email_update{
+    background-color:#66cccc;
+}
+
+.call{
+    border-left:3px solid #66cccc;   
+}
+
+.emailicon{
+    font-size:50px;
+}
+
+.textarea{
+    width:300px;
+}
+
+.redu{
+    margin-top:-42px;
+}
+
+@media(max-width:770px){
+    .emails{
+        margin:0px !important;
+    }
+
+
+}
+
+@media(max-width:570px){
+    .mailItem{
+        flex-direction:column;
+    }
+.email_update {
+    text-align: center !important;
+}
+
+.redu{
+    margin:0px !important;
+}
+
+}

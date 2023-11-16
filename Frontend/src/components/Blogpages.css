@@ -1,0 +1,48 @@
+
+.banner-img{
+    height: 500px;
+   
+}
+.Banner {
+    background-image: url('../images/Untitled-design-4.webp');
+    background-size: cover;
+    background-position: center;
+   width:100vw;
+
+    height: 50vh;
+} 
+
+@media ( min-width:400px )and (max-width :700px){
+  /* .Banner{
+    background-size: cover;
+    background-position: center;
+    height: 100%; 
+
+   }
+   .card{
+    width:20rem;
+   } */
+
+   .banner-img{
+    height:200px;
+   }
+
+}
+@media( max-width:400px ){
+    /* .card{
+        max-width:18em;
+       }
+    body{
+        overflow-x: hidden;
+    }
+    .Banner{
+        background-size: cover;
+        background-position: center;
+        height: 100%; 
+    
+       } */
+
+       .banner-img{
+        height:200px;
+       }
+}
