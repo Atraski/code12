@@ -64,7 +64,7 @@ const navigate = useNavigate()
           // Handle the payment success callback here
           console.log("Payment successful: ", response);
           try {
-            navigate('/');
+            navigate('/invoice');
           } catch (error) {
             console.error('Navigation error:', error);
           }

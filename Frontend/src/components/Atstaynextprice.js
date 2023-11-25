@@ -229,7 +229,7 @@ export const productData6=[
     {
         id:28,
         price:7000,
-        imgs:page8img4,roomtype:'Coral ',
+        imgs:page8img4,roomtype:'Coral',
         place : "Himachal Pradesh",
     },
 
@@ -285,208 +285,189 @@ export const productData6=[
     {
         id:36,
         price:2217,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        imgs:page10img1,roomtype:'ATSTAY Bhimkothi Boutique 1011',
+        place : "Jaisalimer,Rajasthan",
     },
 
     {
         id:37,
         price:4534,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        imgs:page10img1,roomtype:'ATSTAY Shangri-La The Heritage Haveli 1012',
+        place : "Jodhpur, Rajasthan",
     },
 
     {
         id:38,
         price:2094,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        imgs:page10img1,roomtype:'ATSTAY Mowgli Town Homestay 1013',
+        place : "Jeolikote, Uttarakhand",
     },
 
     {
         id:39,
         price:3080,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        imgs:page10img1,roomtype:'ATSTAY Stonewood Homestay 1014',
+        place : "Shimla, Himachal Pradesh",
     },
+
 
     {
         id:40,
-        price:4200,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        price:3696,
+        imgs:page10img1,roomtype:'ATSTAY Shimla Hills Homestay Kamal 1015',
+        place : "Shimla, Himachal Pradesh",
     },
 
     {
         id:41,
-        price:3696,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        price:4534,
+        imgs:page10img1,roomtype:'ATSTAY The City Escape Farmstay 1016',
+        place : "Shimla, Himachal Pradesh",
     },
 
     {
         id:42,
-        price:4534,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        price:3942,
+        imgs:page10img1,roomtype:'ATSTAY Royce Villa Nainital 1017',
+        place : "Nainital, Uttarakhand",
     },
 
     {
         id:43,
-        price:4200,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        price:8288,
+        imgs:page10img1,roomtype:'ATSTAY The Hive Pushkar 1018',
+        place : "Pushkar, Rajasthan",
     },
 
     {
         id:44,
-        price:3942,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        price:4534,
+        imgs:page10img1,roomtype:'ATSTAY The Hive Jaipur 1019',
+        place : "Jaipur, Rajasthanh",
     },
 
     {
         id:45,
-        price:8288,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        price:985,
+        imgs:page10img1,roomtype:'ATSTAY Kappu Home Stay 1020',
+        place : "Sainj, Himachal Pradesh",
     },
 
     {
         id:46,
-        price:4534,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        price:3080,
+        imgs:page10img1,roomtype:'ATSTAY Himri Mountains Home Stay 1021',
+        place : "Jangal Drabala, Himachal Pradesh",
     },
+
 
     {
         id:47,
-        price:985,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        price:4534,
+        imgs:page10img1,roomtype:'ATSTAY Sunbreeze shimla 1022',
+        place : "Shimla, Himachal Pradesh",
     },
 
 
     {
         id:48,
-        price:3080,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        price:4534,
+        imgs:page10img1,roomtype:'ATSTAY Sunbeam 3bhk apartment 1023',
+        place : "Shimla, Himachal Pradesh",
     },
-
 
     {
         id:49,
         price:4534,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        imgs:page10img1,roomtype:'ATSTAY Cedarwood villa 1024',
+        place : "Shimla, Himachal Pradesh",
     },
 
     {
         id:50,
         price:4534,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        imgs:page10img1,roomtype:'ATSTAY Jakhoo nest 1025',
+        place : "Shimla, Himachal Pradesh",
     },
 
     {
         id:51,
         price:4534,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        imgs:page10img1,roomtype:'ATSTAY Escape Town Homestay 1026',
+        place : "Manali, Himachal Pradesh",
     },
 
     {
         id:52,
-        price:4534,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        price:1355,
+        imgs:page10img1,roomtype:'ATSTAY KANAK HOMESTAY 1027',
+        place : "Uttar Pradesh",
     },
 
     {
         id:53,
-        price:4534,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        price:2800,
+        imgs:page10img1,roomtype:'ATSTAY Pushpanjali Homestay 1028',
+        place : "Varanasi, Uttar Pradesh",
     },
 
     {
         id:54,
-        price:1355,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        price:1478,
+        imgs:page10img1,roomtype:'ATSTAY Ramda Guest House 1029',
+        place : "Maichor, Uttarakhand",
     },
 
     {
         id:55,
-        price:1355,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        price:4534,
+        imgs:page10img1,roomtype:'ATSTAY Kasar Himalaya holiday home 1030',
+        place : "Binsar road, Uttarakhand",
     },
 
     {
         id:56,
-        price:2800,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        price:2217,
+        imgs:page10img1,roomtype:'ATSTAY Binsar view home stay 1031',
+        place : "Uttarakhand",
     },
 
     {
         id:57,
-        price:1478,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        price:3000,
+        imgs:page10img1,roomtype:'ATSTAY Oxygen HomeStay 1032',
+        place : "Uttarakhand",
     },
 
     {
         id:58,
-        price:4534,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        price:5600,
+        imgs:page10img1,roomtype:'ATSTAY The Bougainvillea - Luxury Homestay in Dehradun 1033',
+        place : "Dehradun, Uttarakhand",
     },
 
     {
         id:59,
-        price:2217,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        price:3080,
+        imgs:page10img1,roomtype:'ATSTAY BBC Homestays Dehradun 1034',
+        place : "Sudhowala, Uttarakhand",
     },
 
     {
         id:60,
-        price:3000,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
+        price:4928,
+        imgs:page10img1,roomtype:'ATSTAY Jhinuk Homestay 1035',
+        place : "Panaji, Goa",
     },
 
     {
         id:61,
-        price:5600,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
-    },
-
-    {
-        id:62,
-        price:3080,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
-    },
-
-    {
-        id:63,
-        price:4928,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
-    },
-
-    {
-        id:64,
         price:1540,
-        imgs:page10img1,roomtype:'Traditional Huts',
-        place : "Madhya Pradesh",
-    },
+        imgs:page10img1,roomtype:'ATSTAY MMM Home Rentals 1036',
+        place : "Dehradun, Uttarakhand",
+    }
 
+   
    
 
     

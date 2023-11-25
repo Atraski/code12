@@ -364,7 +364,7 @@ export default function HomeComponents() {
                           <img
                             src={elm.imges}
                             className="img-fluid"
-                            style={{ height: '280px', width: '300px', borderRadius:'15px' }}
+                            style={{ height: '262px', width: '300px', borderRadius:'15px' }}
                           ></img>
                         </div>
 

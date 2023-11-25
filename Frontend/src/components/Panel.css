@@ -1,0 +1,11 @@
+@media(max-width:500px){
+    .hms{
+        flex-direction: column;
+    }
+    .updation{
+        width:250px!important;
+    }
+    .msc{
+        height: 73vh !important;;
+    }
+}

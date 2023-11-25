@@ -2,7 +2,7 @@ import { Divider } from 'antd';
 import './Form.css'
 import Footer from './Footer';
 import Navbar from './Navbar';
-import { useState } from 'react';
+import { useState , useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 function Form2(){
     const [name,setname]= useState('')
@@ -16,6 +16,15 @@ function Form2(){
     const children = parseInt(localStorage.getItem('child')) || 0;
     const selectedDate = localStorage.getItem('selectedDate') || '';
     const amount = localStorage.getItem('amunt') || '';
+    const adds = localStorage.setItem('add' ,add ) || '';
+    const mails = localStorage.setItem('mail' ,mail ) || '';
+    const phones = localStorage.setItem('phone' ,phone ) || '';
+  const namess = localStorage.setItem('namess' , name);
+  const tripname= localStorage.getItem('trip')
+  const checkoutDate=localStorage.getItem('checkout');
+    const checkin=localStorage.getItem('checkin');
+const rooms = localStorage.getItem('room')
+    console.log(adds)
     console.log(selectedDate,'ll')
 
 const navigate = useNavigate()
@@ -29,8 +38,17 @@ const navigate = useNavigate()
         method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({amount})
+          
+
       })
-     
+      if(data1.success){
+      const responseData = await data1.json();
+      // console.log('yyyy',responseData.order.id)
+  const orderrr = localStorage.setItem('orderr' , responseData.order.id)
+
+      }
+      // const orderid=responseData.order.id;
+
       var keys= await fetch("http://localhost:5000/key",{
         method: 'GET',
     
@@ -38,6 +56,7 @@ const navigate = useNavigate()
       keys = await keys.json()
       console.log(keys,"yes")
       data1 = await data1.json()
+      
     
     
       // const keys='rzp_test_OmCfFJhnp3Fztn'
@@ -64,7 +83,7 @@ const navigate = useNavigate()
           // Handle the payment success callback here
           console.log("Payment successful: ", response);
           try {
-            navigate('/');
+            navigate('/invoice');
           } catch (error) {
             console.error('Navigation error:', error);
           }
@@ -115,13 +134,13 @@ const navigate = useNavigate()
         try {
           const paisa = localStorage.getItem('amunt2')
     
-          // Send a request to your server to save data to the database
-          const response = await fetch("http://localhost:5000/saveDataToDatabase", {
+          // Send a request to your server to save data to the databases
+          const response = await fetch("http://localhost:5000/saveDataToDatabase1", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
             },
-            body: JSON.stringify({ name, mail, add, phone, pin ,street,children,adult,selectedDate,country,amount}),
+            body: JSON.stringify({ name, mail, phone,street,add,pin,rooms,country,amount,adult,checkin,checkoutDate,children,tripname}),
           });
     
           const data = await response.json();
@@ -161,23 +180,23 @@ const navigate = useNavigate()
       
     </div>
     <div class="controls">
-      <input type="text" id="email" class="floatLabel" name="email" value={mail} placeholder='email' onChange={(e)=>{setmail(e.target.value)}} />
+      <input type="text" id="email" class="floatLabel" name="email" value={mail} required placeholder='email' onChange={(e)=>{setmail(e.target.value)}} />
       <label for="email"></label>
     </div>       
     <div class="controls">
-      <input type="tel" id="phone" class="floatLabel" name="phone" value={phone}  placeholder='Phone' onChange={(e)=>{setphone(e.target.value)}} />
+      <input type="tel" id="phone" class="floatLabel" name="phone" value={phone} required placeholder='Phone' onChange={(e)=>{setphone(e.target.value)}} />
       <label for="phone"></label>
     </div>
       <div class="grid">
         <div class="col-2-3">
           <div class="controls">
-           <input type="text" id="street" class="floatLabel" name="street"  value={add} placeholder='Adress' onChange={(e)=>{setadd(e.target.value)}} />
+           <input type="text" id="street" class="floatLabel" name="street" required value={add} placeholder='Adress' onChange={(e)=>{setadd(e.target.value)}} />
            <label for="street"></label>
           </div>          
         </div>
         <div class="col-1-3">
           <div class="controls">
-            <input type="number" id="street-number" class="floatLabel" value={street} name="street-number" placeholder='Number' onChange={(e)=>{setstreet(e.target.value)}} />
+            <input type="number" id="street-number" class="floatLabel"  required value={street} name="street-number" placeholder='Number' onChange={(e)=>{setstreet(e.target.value)}} />
             <label for="street-number"></label>
           </div>          
         </div>

@@ -74,7 +74,7 @@ function Atstaynextpage() {
   const [numss, setnumss] = useState(() => (localStorage.getItem('child')) || 0);
   const [nums, setnums] = useState(() => (localStorage.getItem('adult')) || 0);
   const [num, setnum] = useState(() => (localStorage.getItem('room')) || 0);
-  const [numberOfDays, setNumberOfDays] = useState(0);
+  const [numberOfDays, setNumberOfDays] = useState(0);                
 
 
   useEffect(() => {
@@ -109,6 +109,10 @@ function Atstaynextpage() {
   const mm1 = data.filter((ds) => ds.id == params.id)
   const mm2 = dd1.filter((ds1) => ds1.id == params.id)
   const mm3 = faci.filter((ds2) => ds2.id == params.id)
+  const tripValue =  mm1[0].trip ;
+  const [storedData ,setstoreddata] = useState();
+  console.log(storedData);
+
   useEffect(() => {
     localStorage.setItem('productData', JSON.stringify(data));
     localStorage.setItem('productData1', JSON.stringify(dd1));
@@ -118,14 +122,38 @@ function Atstaynextpage() {
     localStorage.setItem('child', numss);
     localStorage.setItem('adult', nums);
     localStorage.setItem('room', num);
+    localStorage.setItem('trip', tripValue);
 
-  }, [data, dd1, faci, checkout, checkin, numss, nums, num]);
-
-
-
+  }, [data, dd1, faci, checkout, checkin, numss, nums, num,tripValue]);
 
 
 
+  const [updatedRooms, setUpdatedRooms] = useState(2) 
+  console.log(updatedRooms)
+    // const [updatedRoomPrice, setUpdatedRoomPrice] = useState(() => localStorage.getItem('updatedRoomPrice') || '');
+
+    
+
+    useEffect(() => {
+      fetchDataFromServer()
+          
+    },);
+
+    const fetchDataFromServer = async () => {
+      try {
+          const response = await fetch(`http://localhost:5000/api/rooms/${params.id}`);
+          const data = await response.json();
+          console.log(data)
+
+          setUpdatedRooms(data.rooms || 2);
+          // setRoomprice(data.roomprice || '');
+      } catch (error) {
+          console.error('Error fetching data from server:', error);
+      }
+
+  };
+    
+    
 
 
 
@@ -134,15 +162,39 @@ function Atstaynextpage() {
   }
 
   const inc = () => {
-    setnum(parseInt(num) + 1);
+    console.log(num)
+
+    console.log(updatedRooms)
+    
+      if(num<updatedRooms){
+        setnum( parseInt(num) + 1);
+        console.log(num)
+      }
+      else{
+        alert("Oops Rooms is not Available")
+      }
+    
+    
+    
+    
+    
   };
   
   const inc1 = () => {
-    setnums(parseInt(nums) + 1);
+    if(nums < num*2){
+      setnums(parseInt(nums) + 1);
+    }
+    else{
+      alert("No More Adults Are Allowed")
+    }
+    
   };
   
   const inc2 = () => {
-    setnumss(parseInt(numss) + 1);
+    if(numss < 1){
+      setnumss(parseInt(numss) + 1);
+    }
+    
   };
   
   const dec = () => {
@@ -218,7 +270,13 @@ function Atstaynextpage() {
   }
 
   const showprice = () => {
-    const box = document.querySelector('.hideing');
+
+    if(num>updatedRooms){
+      alert(`Only ${updatedRooms} is Available`)
+    }
+
+    else{
+      const box = document.querySelector('.hideing');
     if(window.innerWidth <= 974){
       box.style.setProperty('display', 'none', 'important');
     }
@@ -230,6 +288,9 @@ function Atstaynextpage() {
       top: scrollY,
       behavior: 'smooth', // You can use 'auto' for an instant scroll
     });
+    }
+
+    
 
     
 

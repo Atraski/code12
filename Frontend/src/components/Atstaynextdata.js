@@ -475,7 +475,7 @@ export const productData1=[
     { id: 11
         ,
         room1:[
-            { imgs:atstay11,roomtype:'Traditional Huts',id:36,price:4200},
+            { imgs:atstay11,roomtype:'ATSTAY Bhimkothi Boutique 1011',id:36,price:4200},
              
         ],
        
@@ -486,7 +486,7 @@ export const productData1=[
     { id: 12
         ,
         room1:[
-            { imgs:Shangri,roomtype:'Traditional Huts',id:37,price:4200},
+            { imgs:Shangri,roomtype:'ATSTAY Shangri-La The Heritage Haveli 1012',id:37,price:4200},
              
         ],
        
@@ -497,7 +497,7 @@ export const productData1=[
     { id: 13
         ,
         room1:[
-            { imgs:Mowgli,roomtype:'Traditional Huts',id:38,price:4200},
+            { imgs:Mowgli,roomtype:'ATSTAY Mowgli Town Homestay 1013',id:38,price:4200},
              
         ],
        
@@ -508,7 +508,7 @@ export const productData1=[
     { id: 14
         ,
         room1:[
-            { imgs:Stonewood,roomtype:'Traditional Huts',id:39,price:4200},
+            { imgs:Stonewood,roomtype:'ATSTAY Stonewood Homestay 1014',id:39,price:4200},
              
         ],
        
@@ -520,7 +520,7 @@ export const productData1=[
     { id: 15
         ,
         room1:[
-            { imgs:Shimla,roomtype:'Traditional Huts',id:40,price:4200},
+            { imgs:Shimla,roomtype:'ATSTAY Shimla Hills Homestay Kamal 1015',id:40,price:4200},
              
         ],
        
@@ -531,7 +531,7 @@ export const productData1=[
     { id: 16
         ,
         room1:[
-            { imgs:city,roomtype:'Traditional Huts',id:41,price:4200},
+            { imgs:city,roomtype:'ATSTAY The City Escape Farmstay 1016',id:41,price:4200},
              
         ],
        
@@ -543,7 +543,7 @@ export const productData1=[
     { id: 17
         ,
         room1:[
-            { imgs:Royce,roomtype:'Traditional Huts',id:42,price:4200},
+            { imgs:Royce,roomtype:'ATSTAY Royce Villa Nainital 1017',id:42,price:4200},
              
         ],
        
@@ -555,7 +555,7 @@ export const productData1=[
     { id: 18
         ,
         room1:[
-            { imgs:Pushkar,roomtype:'Traditional Huts',id:43,price:4200},
+            { imgs:Pushkar,roomtype:'ATSTAY The Hive Pushkar 1018',id:43,price:4200},
              
         ],
        
@@ -567,7 +567,7 @@ export const productData1=[
     { id: 19
         ,
         room1:[
-            { imgs:Hive,roomtype:'Traditional Huts',id:44,price:4200},
+            { imgs:Hive,roomtype:'ATSTAY The Hive Jaipur 1019',id:44,price:4200},
              
         ],
        
@@ -579,7 +579,7 @@ export const productData1=[
     { id: 20
         ,
         room1:[
-            { imgs:Kappu,roomtype:'Traditional Huts',id:45,price:4200},
+            { imgs:Kappu,roomtype:'ATSTAY Kappu Home Stay 1020',id:45,price:4200},
              
         ],
        
@@ -591,7 +591,7 @@ export const productData1=[
     { id: 21
         ,
         room1:[
-            { imgs:Himri,roomtype:'Traditional Huts',id:46,price:4200},
+            { imgs:Himri,roomtype:'ATSTAY Himri Mountains Home Stay 1021',id:46,price:4200},
              
         ],
        
@@ -603,7 +603,7 @@ export const productData1=[
     { id: 22
         ,
         room1:[
-            { imgs:Sunbreeze,roomtype:'Traditional Huts',id:47,price:4200},
+            { imgs:Sunbreeze,roomtype:'ATSTAY Sunbreeze shimla 1022',id:47,price:4200},
              
         ],
        
@@ -615,7 +615,7 @@ export const productData1=[
     { id: 23
         ,
         room1:[
-            { imgs:Sunbeam,roomtype:'Traditional Huts',id:48,price:4200},
+            { imgs:Sunbeam,roomtype:'ATSTAY Sunbeam 3bhk apartment 1023',id:48,price:4200},
              
         ],
        
@@ -627,7 +627,7 @@ export const productData1=[
     { id: 24
         ,
         room1:[
-            { imgs:Cedarwood,roomtype:'Traditional Huts',id:49,price:4200},
+            { imgs:Cedarwood,roomtype:'ATSTAY Cedarwood villa 1024',id:49,price:4200},
              
         ],
        
@@ -638,7 +638,7 @@ export const productData1=[
     { id: 25
         ,
         room1:[
-            { imgs:Jakhoo,roomtype:'Traditional Huts',id:50,price:4200},
+            { imgs:Jakhoo,roomtype:'ATSTAY Jakhoo nest 1025',id:50,price:4200},
              
         ],
        
@@ -650,7 +650,7 @@ export const productData1=[
     { id: 26
         ,
         room1:[
-            { imgs:Escape,roomtype:'Traditional Huts',id:51,price:4200},
+            { imgs:Escape,roomtype:'ATSTAY Escape Town Homestay 1026',id:51,price:4200},
              
         ],
        
@@ -662,7 +662,7 @@ export const productData1=[
     { id: 27
         ,
         room1:[
-            { imgs:KANAK,roomtype:'Traditional Huts',id:52,price:4200},
+            { imgs:KANAK,roomtype:'ATSTAY KANAK HOMESTAY 1027',id:52,price:4200},
              
         ],
        
@@ -673,7 +673,7 @@ export const productData1=[
     { id: 28
         ,
         room1:[
-            { imgs:Pushpanjali,roomtype:'Traditional Huts',id:53,price:4200},
+            { imgs:Pushpanjali,roomtype:'ATSTAY Pushpanjali Homestay 1028',id:53,price:4200},
              
         ],
        
@@ -684,7 +684,7 @@ export const productData1=[
     { id: 29
         ,
         room1:[
-            { imgs:Ramda,roomtype:'Traditional Huts',id:54,price:4200},
+            { imgs:Ramda,roomtype:'ATSTAY Ramda Guest House 1029',id:54,price:4200},
              
         ],
        
@@ -695,7 +695,7 @@ export const productData1=[
     { id: 30
         ,
         room1:[
-            { imgs:Kasar,roomtype:'Traditional Huts',id:55,price:4200},
+            { imgs:Kasar,roomtype:'ATSTAY Kasar Himalaya holiday home 1030',id:55,price:4200},
              
         ],
        
@@ -706,7 +706,7 @@ export const productData1=[
     { id: 31
         ,
         room1:[
-            { imgs:Binsar,roomtype:'Traditional Huts',id:56,price:4200},
+            { imgs:Binsar,roomtype:'ATSTAY Binsar view home stay 1031',id:56,price:4200},
              
         ],
        
@@ -717,7 +717,7 @@ export const productData1=[
     { id: 32
         ,
         room1:[
-            { imgs:Jakhoo,roomtype:'Traditional Huts',id:57,price:4200},
+            { imgs:Jakhoo,roomtype:'ATSTAY Oxygen HomeStay 1032',id:57,price:4200},
              
         ],
        
@@ -728,7 +728,7 @@ export const productData1=[
     { id: 33
         ,
         room1:[
-            { imgs:Jakhoo,roomtype:'Traditional Huts',id:58,price:4200},
+            { imgs:Jakhoo,roomtype:'ATSTAY The Bougainvillea - Luxury Homestay in Dehradun 1033',id:58,price:4200},
              
         ],
        
@@ -739,7 +739,7 @@ export const productData1=[
     { id: 34
         ,
         room1:[
-            { imgs:BBC,roomtype:'Traditional Huts',id:59,price:4200},
+            { imgs:BBC,roomtype:'ATSTAY BBC Homestays Dehradun 1034',id:59,price:4200},
              
         ],
        
@@ -750,7 +750,7 @@ export const productData1=[
     { id: 35
         ,
         room1:[
-            { imgs:Jakhoo,roomtype:'Traditional Huts',id:60,price:4200},
+            { imgs:Jakhoo,roomtype:'ATSTAY Jhinuk Homestay 1035',id:60,price:4200},
              
         ],
        
@@ -761,7 +761,7 @@ export const productData1=[
     { id: 36
         ,
         room1:[
-            { imgs:MMM,roomtype:'Traditional Huts',id:61,price:4200},
+            { imgs:MMM,roomtype:'ATSTAY MMM Home Rentals 1036',id:61,price:4200},
              
         ],
        
@@ -1260,17 +1260,7 @@ export const productData4=[
         id:21,
         // img:page1img2,
         images:[{
-            image1:slider40},
-           
-
-
-
-
-        
-        
-          
-
-          
+            image1:slider40}, 
         ]
         
     },
@@ -1630,28 +1620,10 @@ export const productData4=[
             { image1:slider98},
             { image1:slider99},
             { image1:slider100},
-
-           
-
-
-
-          ,
-
-
-           
-
-
-
-
-        
-        
           
-
-          
+  
         ]
-
-        
-        
+  
     },
     
 
@@ -1662,8 +1634,6 @@ export const productData4=[
         images:[{ image1:atstay11},
             { image1:bhim1},
             { image1:bhim2},
-            
-
         ]        
     },
     
@@ -1698,8 +1668,6 @@ export const productData4=[
         images:[{ image1:Stonewood},
             { image1:Stonewood2},
             { image1:Stonewood3},
-            
-
         ]        
     },
     

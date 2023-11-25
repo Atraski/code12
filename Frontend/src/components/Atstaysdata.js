@@ -127,6 +127,9 @@ import atstay1 from '../images/atstay1.webp'
  import MMM from '../images/MMM.jpg'
  import MMM2 from '../images/MMM2.jpg'
  import MMM3 from '../images/MMM3.jpg'
+ import bho1 from '../images/bho1.jpg'
+ import bho2 from '../images/bho2.jpg'
+ import bho3 from '../images/bho3.jpg'
 
  
  
@@ -332,13 +335,13 @@ export const productData=[
         imges : atstay11,
         trip : "ATSTAY Bhimkothi Boutique 1011",
         // days : "Days tour",
-        price:4534.00,
+        price:2217.00,
         img1:atstay11,
         img2:bhim1,
         img3:bhim2,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
         ids:1,
-        ids1:2
+        ids1:3
         
     },
 
@@ -353,7 +356,8 @@ export const productData=[
         img2:Shangri2,
         img3:Shangri3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
+        ids:3
+
     },
 
     {
@@ -367,7 +371,8 @@ export const productData=[
         img2:Mowgli2,
         img3:Mowgli3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4,
+        ids:1,
+        ids1:7
         
     },
 
@@ -382,7 +387,8 @@ export const productData=[
         img2:Stonewood2,
         img3:Stonewood3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
+        ids:1,
+        ids1:4
     },
 
     {
@@ -396,7 +402,8 @@ export const productData=[
         img2:Shimla2,
         img3:Shimla3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
+        ids:1,
+        ids1:7
     },
 
     {
@@ -410,7 +417,8 @@ export const productData=[
         img2:city2,
         img3:city3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
+        ids:3,
+        ids1:9
     },
 
 
@@ -425,7 +433,8 @@ export const productData=[
         img2:Royce2,
         img3:Royce3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
+        ids:[3,7]
+        
     },
 
 
@@ -440,7 +449,8 @@ export const productData=[
         img2:Pushkar2,
         img3:Pushkar3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
+        ids:3,
+        
     },
 
 
@@ -455,7 +465,7 @@ export const productData=[
         img2:Hive2,
         img3:Hive3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
+        ids:1
     },
 
 
@@ -470,7 +480,7 @@ export const productData=[
         img2:Kappu2,
         img3:Kappu3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
+        ids:7
     },
 
 
@@ -485,7 +495,8 @@ export const productData=[
         img2:Himri2,
         img3:Himri3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
+        ids:7,
+        ids1:4
     },
 
     {
@@ -499,7 +510,8 @@ export const productData=[
         img2:Sunbreeze2,
         img3:Sunbreeze3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
+        ids:3,
+        ids1:4
     },
 
     {
@@ -513,7 +525,8 @@ export const productData=[
         img2:Sunbeam2,
         img3:Sunbeam3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
+        ids:4,
+        ids1:7
     },
 
     {
@@ -541,7 +554,8 @@ export const productData=[
         img2:Jakhoo2,
         img3:Jakhoo3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
+        ids:1,
+        ids1:7
     },
 
     {
@@ -555,7 +569,8 @@ export const productData=[
         img2:Escape2,
         img3:Escape3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
+        ids:1,
+        ids1:7
     },
 
     {
@@ -569,7 +584,8 @@ export const productData=[
         img2:KANAK2,
         img3:KANAK3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
+        ids:1
+
     },
 
     {
@@ -583,7 +599,7 @@ export const productData=[
         img2:Pushpanjali2,
         img3:Pushpanjali3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
+        ids:1
     },
 
     {
@@ -597,7 +613,8 @@ export const productData=[
         img2:Ramda2,
         img3:Ramda3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
+        ids:3,
+        ids1:7
     },
 
     {
@@ -611,7 +628,8 @@ export const productData=[
         img2:Kasar2,
         img3:Kasar3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
+        ids:3,
+        ids1:7
     },
 
     {
@@ -625,7 +643,8 @@ export const productData=[
         img2:Binsar2,
         img3:Binsar3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
+        ids:4,
+        ids1:7
     },
 
     {
@@ -639,21 +658,23 @@ export const productData=[
         img2:l2,
         img3:l3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
+        ids:3,
+        ids1:4
     },
 
     {
         id : 33,
         place : " Dehradun, Uttarakhand",
-        imges : atstay10,
+        imges : bho1,
         trip : "ATSTAY The Bougainvillea - Luxury Homestay in Dehradun 1033",
         // days : "Days tour",
         price:4534.00,
-        img1:l1,
-        img2:l2,
-        img3:l3,
+        img1:bho1,
+        img2:bho2,
+        img3:bho3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
+        ids:3,
+        ids1:7
     },
 
     {
@@ -667,22 +688,23 @@ export const productData=[
         img2:BBC2,
         img3:BBC3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
+        ids:3,
+        ids1:4
     },
 
-    {
-        id : 35,
-        place : "Panaji, Goa",
-        imges : atstay10,
-        trip : "ATSTAY Jhinuk Homestay 1035",
-        // days : "Days tour",
-        price:4534.00,
-        img1:l1,
-        img2:l2,
-        img3:l3,
-        desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
-    },
+    // {
+    //     id : 35,
+    //     place : "Panaji, Goa",
+    //     imges : atstay10,
+    //     trip : "ATSTAY Jhinuk Homestay 1035",
+    //     // days : "Days tour",
+    //     price:4534.00,
+    //     img1:l1,
+    //     img2:l2,
+    //     img3:l3,
+    //     desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
+    //     ids:2
+    // },
 
     {
         id : 36,
@@ -695,7 +717,8 @@ export const productData=[
         img2:MMM2,
         img3:MMM3,
         desc:'Our Atstay Homestay 1005, situated at 20 kilometers away from the city of Jodhpur seems to be a flag bearer of vibrancy and culture. An epitome of hospitality and warmth, this homestay offers a contemporary dwelling and mesmerising experience to the guests. The dwelers here believe in keeping their traditions intact and are unaffected by the shift in the tourism industry.',
-        ids:4
+        ids:3,
+        ids1:7
     },
 
 

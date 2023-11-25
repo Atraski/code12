@@ -1,49 +1,38 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import { useNavigate,Link } from "react-router-dom";
-import axios from 'axios';
-import Navbar from "./Navbar";
+import logo from '../images/atstaylogo.webp';
+import pms from './user.json';
+
 
 const SignIn = () => {
   const history = useNavigate();
+  const [user , Setuser] = useState(pms);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const cmd = user.map((ll) => ll.username);
+  const csd = user.map((lm) => lm.password);
+  const cdd = user.map((ls) => ls.id);
 
-  function handleSubmit(e) {
-    e.preventDefault();
+  console.log(cmd , "asdfas");
+
+  let userFound = false;
+
+  async function handleSubmit(e) {
+    for(let i =0 ; i<pms.length ;i++ ){
+      if(email == cmd[i] && password == csd[i]){
+        
+        history(`/panel/${cdd[i]}`)
+        userFound = true;
+        break;
+    }
+
     
-
-    axios.post('http://localhost:5000/signin' , {
-      
-      email : email,
-      password : password
-    })
-    .then(res =>{
-      console.log(res.data)
-
-      if(res.data.code === 500){
-        alert('User Not Found');
-      }
-
-      
-      if(res.data.code === 404){
-        alert('Password is wrong');
-      }
-
-      
-      if(res.data.code === 200){
-        // Move to Home Page
-        history('/')
-        localStorage.setItem('TOKEN' , res.data.token)
-        localStorage.setItem('NAME' , res.data.name)
-
-      }
-
-    }).catch(err =>{
-      console.log(err)
-    })
-  
+    }
+if(!userFound){
+    alert("Authentication Failed")
     
+  }
     
   }
 
@@ -58,8 +47,6 @@ const SignIn = () => {
 
 
     return (
-      <>
-      <Navbar />
       <div style={{ backgroundColor: "aliceblue" }}>
         <Container className="auth-form-container" style={mystyle}>
           <Row className="justify-content-center" style={{ width: "100%" }}>
@@ -75,28 +62,29 @@ const SignIn = () => {
               }}
             >
               <img
-                src="PNG_LH.png"
+                src={logo}
                 alt=""
-                style={{ width: "400px", height: "250px" }}
+                style={{ width: "400px", height: "400px" }}
               />
             </Col>
             <Col xs={12} md={6} lg={6} style={{ backgroundColor: "aliceblue" }}>
               <div className="auth-form">
-                <h2>Sign In</h2>
+                
                 <Form onSubmit={handleSubmit}>
+                <h2>Login To Your Pannel</h2>
                   <Form.Group controlId="email" className="py-2">
-                    <Form.Label>Email address</Form.Label>
+                    
                     <Form.Control
-                      type="email"
-                      placeholder="Enter email"
+                      type="text"
+                      placeholder="User Name"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                     />
                   </Form.Group>
                   <Form.Group controlId="password" className="py-2">
-                    <Form.Label>Password</Form.Label>
+                    
                     <Form.Control
-                      type="password"
+                      type="text"
                       placeholder="Password"
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
@@ -117,21 +105,13 @@ const SignIn = () => {
                   >
                     Sign In
                   </Button>
-                  <p className="mt-3">
-                    Don't have an account?{" "}
-                 <Link to="/signuppage"><Button variant="link">
-                      Sign Up
-                    </Button>
-                    </Link>
-                    
-                  </p>
+                  
                 </Form>
               </div>
             </Col>
           </Row>
         </Container>
       </div>
-      </>
     );
 };
 

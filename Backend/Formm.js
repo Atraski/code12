@@ -16,6 +16,7 @@ const formDataSchema = new mongoose.Schema({
   adult:String,
   selectedDate:String,
   children:String,
+  tripname:String,
 
 
  
